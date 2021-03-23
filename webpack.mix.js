@@ -12,6 +12,10 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .autoload({
+        jquery: ['$', 'window.jQuery', 'jQuery'],
+        'popper.js/dist/umd/popper.js': ['Popper']
+    })
     .vue()
     .sass('resources/sass/app.scss', 'public/css')
     .setResourceRoot("../");
