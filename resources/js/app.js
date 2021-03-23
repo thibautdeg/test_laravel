@@ -5,6 +5,19 @@
  */
 
 require('./bootstrap');
+import 'jquery/dist/jquery'
+import 'jquery-ui-dist/jquery-ui.min'
+import 'bootstrap/dist/js/bootstrap.min'
+import 'sparklines/source/sparkline'
+import 'jqvmap-novulnerability/dist/jquery.vmap.min'
+import 'jqvmap-novulnerability/dist/maps/jquery.vmap.usa'
+import 'jquery-knob-chif/dist/jquery.knob.min'
+import 'moment/dist/moment'
+import 'daterangepicker/daterangepicker'
+import 'tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min'
+import 'summernote/dist/summernote-bs4.min'
+import 'overlayscrollbars/js/jquery.overlayScrollbars.min'
+import 'admin-lte/dist/js/adminlte'
 
 window.Vue = require('vue').default;
 
